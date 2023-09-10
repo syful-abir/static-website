@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(food.jpg);
+    background-repeat: no-repeat;
+}
+h2{
+    color: #fff;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+.navber ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 50px;
+    
+}
+.navber ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    position: relative;
+}
+.navber a::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navber a:hover::after{
+    width: 100%;
+}
+button{
+    width: 170px;
+    padding: 15px 0px;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+span{
+    background-color: #009688;
+    width: 0%;
+    height: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+    z-index: -1;
+}
+.banner-text{
+    padding: 90px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+.banner-text h1 h5{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
