@@ -196,10 +196,10 @@ hr{
     font-weight: 600;
 }
 .card button{
-    width: 320px;
+    width: 250px;
     padding: 15px 0;
     text-align: center;
-    margin: 20px 0px;
+    margin: 20px 27px;
     border-radius: 10px;
     font-weight: bold;
     border: 2px solid #fff;
