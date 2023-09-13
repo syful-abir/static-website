@@ -142,10 +142,6 @@ button:hover span{
     overflow: hidden;
     transition: 0.5s;
 }
-
-.about button:hover{
-    background-color:#009688;
-}
 .about img:hover{
     transform: translateY(-8px);
 }
